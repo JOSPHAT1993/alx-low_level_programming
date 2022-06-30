@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main - Entry point 
- * Description: 'the program's description'
+ * Main Entry point 
+ * Description: Printing simple text
  * Return: Always 0 (Success)
  */
 int main(void)
