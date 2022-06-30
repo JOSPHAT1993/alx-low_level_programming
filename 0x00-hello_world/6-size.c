@@ -10,7 +10,7 @@ int main(void)
 	int IntType;
 	char CharType;
 	long int LongintType;
-	long long int LlongintType
+	long long int LlongintType;
 	float FloatType;
 	printf("The size of Int type : %zu bytes\n", sizeof(IntType));
 	printf("The size of Char type : %zu bytes\n", sizeof(CharType));
