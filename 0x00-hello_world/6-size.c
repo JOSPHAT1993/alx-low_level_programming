@@ -12,10 +12,11 @@ int main(void)
 	long int LongintType;
 	long long int LlongintType;
 	float FloatType;
-	printf("The size of Int type : %zu bytes\n", sizeof(IntType));
-	printf("The size of Char type : %zu bytes\n", sizeof(CharType));
-	printf("The size of Long int type : %zu bytes\n", sizeof(LongintType));
-	printf("The size of Long Long int : %zu bytes\n", sizeof(LlongintType));
-	printf("The size of Float type : %zu bytes\n", sizeof(FloatType));
-	return(0);
+
+	printf("Size of char:", sizeof(CharType), "byte(s)\n");
+	printf("Size of int:", sizeof(IntType), "byte(s)\n");
+	printf("Size of long int:", sizeof(LongintType), "byte(s)\n");
+	printf("Size of long long int:", sizeof(LlongintType), "byte(s)\n");
+	printf("Size of float type:", sizeof(FloatType), "byte(s)\n");
+	return (0);
 }
