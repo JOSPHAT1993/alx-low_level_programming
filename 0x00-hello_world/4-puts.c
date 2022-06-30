@@ -1,10 +1,13 @@
 #include <stdio.h>
-/* Entering main function */
-/* Returns : 0 value */
+/**
+ * main - Entry point
+ * 
+ * Description: 'the program's description'
+ * 
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-/* Printing the text within the puts function */
 	puts("\"Programming is like building a multilingual puzzle");
-/* The program is returning null */
 	return (0);
 }
