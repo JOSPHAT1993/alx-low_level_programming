@@ -5,7 +5,7 @@
  * main - Entry point.
  * Description - 'Program prints the type of outputed random number.'
  *
- *Returns : Always 0 (success)
+ * Returns : Always 0 (success)
  */
 int main(void)
 {
@@ -13,17 +13,17 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	if ( n > 0)
+	if( n > 0)
 	{
-		printf(" %u is positive", n);
+		printf("%u is positive", n);
 	}
 	else if( n == 0 )
 	{
-		printf(" %u is zero\n", n);
+		printf("%u is zero\n", n);
 	}
 	else
 	{
-		printf(" %u is negative\n", n);
+		printf("%u is negative\n", n);
 	}
 	return (0);
 }
