@@ -2,10 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Entry point.
- * Description - 'Program prints the type of outputed random number.'
+ * main-entry point of the function.
+ * Description-'Program prints the type of outputed random number.'
  *
- * Returns : Always 0 (success)
+ * Returns:always 0 success
+ *
  */
 int main(void)
 {
@@ -15,15 +16,15 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if(n > 0)
 	{
-		printf("%u is positive", n);
+		printf("%d is positive", n);
 	}
 	else if(n == 0)
 	{
-		printf("%u is zero\n", n);
+		printf("%d is zero\n", n);
 	}
-	else if(n < 0)
+	else
 	{
-		printf("%u is negative\n", n);
+		printf("%d is negative\n", n);
 	}
 	return (0);
 }
