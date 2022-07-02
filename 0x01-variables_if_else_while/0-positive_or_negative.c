@@ -4,7 +4,7 @@
 /**
  * main-Entry point
  *
- * Description:'Program prints the type of outputed random number and their type'
+ * Description:'Program prints the type of outputed random numbers'
  *
  * Return:Always 0 (Success)
  */
