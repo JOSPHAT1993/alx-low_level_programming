@@ -8,9 +8,9 @@
  */
 int main(void)
 {
-	char ch;
+	char ch = 'a';
 
-	for (ch = 'a'; ch <= 'z'; ch++)
+	while (ch <= 'z')
 	{
 		if (ch == 'e' || ch == 'q')
 		{
@@ -19,6 +19,7 @@ int main(void)
 		else
 		{
 			putchar(ch);
+			ch++;
 		}
 	}
 	return (0);
