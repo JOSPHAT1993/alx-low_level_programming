@@ -2,14 +2,15 @@
 /**
  * main-Entry point
  *
- * Description:'Program to print characters from a to z both in lowercase and uppercase'
+ * Description:'Program to print characters from a to z both in lower and upper'
  *
  * Return:Always 0 (Success)
  */
 int main(void)
 {
 	char ch;
-	char cp;	
+	char cp;
+
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
 		putchar(ch);
