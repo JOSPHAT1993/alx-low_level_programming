@@ -8,11 +8,11 @@
  */
 int main(void)
 {
-	int n;
+	int n = 10;
 
-	while (n < 10)
+	while (n < 20)
 	{
-		putchar(str(n));
+		putchar(n % 10 + '0');
 		n++;
 	}
 	return (0);
