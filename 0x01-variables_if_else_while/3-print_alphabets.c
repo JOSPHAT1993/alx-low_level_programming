@@ -18,8 +18,8 @@ int main(void)
 	for (cp = 'A'; cp <= 'Z'; cp++)
 	{
 		putchar(cp);
-		putchar('\n');
 	}
+	putchar('\n');
 	return (0);
 }
 
