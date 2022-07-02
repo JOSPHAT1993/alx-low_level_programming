@@ -2,7 +2,7 @@
 /**
  * main-Entry point
  *
- * Description:'Program to print characters from a to z both in lower and upper'
+ * Description:'Program to print chars from a to z both in lower and upper'
  *
  * Return:Always 0 (Success)
  */
@@ -17,7 +17,7 @@ int main(void)
 	}
 	for (cp = 'A'; cp <= 'Z'; cp++)
 	{
-		putchar(cp);
+		putchar(cp + "\n");
 	}
 	return (0);
 }
