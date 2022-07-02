@@ -21,7 +21,7 @@ int main(void)
 					putchar((p % 10) + '0');
 					putchar((q % 10) + '0');
 					putchar((r % 10) + '0');
-					if (p != 7 || q != 8 || r != 9)
+					if (p != 7 || q != 8)
 					{
 						putchar(',');
 						putchar(' ');
