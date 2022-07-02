@@ -2,11 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main-entry point of the function.
- * Description-'Program prints the type of outputed random number.'
+ * main-Entry point
  *
- * Returns:always 0 success
+ * Description:'Program prints the type of outputed random number and their type'
  *
+ * Return:Always 0 (Success)
  */
 int main(void)
 {
