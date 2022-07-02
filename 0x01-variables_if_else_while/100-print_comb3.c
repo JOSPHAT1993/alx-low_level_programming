@@ -12,7 +12,7 @@ int main(void)
 
 	for (n = 10; n < 20; n++)
 	{
-		for (j = 10; j < 10; j++)
+		for (j = 10; j < 20; j++)
 		{
 			if ((j % 10) > (n % 10))
 			{
