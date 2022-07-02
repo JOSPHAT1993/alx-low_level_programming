@@ -24,6 +24,7 @@ int main(void)
 					if (p != 7 || q != 8 || r != 9)
 					{
 						putchar(',');
+						putchar(' ');
 					}
 				}
 			}
