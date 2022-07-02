@@ -8,21 +8,21 @@
  */
 int main(void)
 {
-	int n,j;
+	int n, j;
 
 	for (n = 10; n < 20; n++)
 	{
-		for (j = 10; n < 10; j++)
+		for (j = 10; j < 10; j++)
 		{
 			if ((n % 10) > (j % 10))
 			{
 				putchar((n % 10) + '0');
 				putchar((j % 10) + '0');
-			}
-			if (n != 18 || j != 19)
-			{
-				putchar(',');
-				putchar(' ');
+				if (n != 18 || j != 19)
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
 		}
 	}
