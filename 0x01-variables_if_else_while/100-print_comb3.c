@@ -14,7 +14,7 @@ int main(void)
 	{
 		for (j = 10; j < 20; j++)
 		{
-			if ((n % 10) > (j % 10))
+			if ((j % 10) > (n % 10))
 			{
 				putchar((n % 10) + '0');
 				putchar((j % 10) + '0');
