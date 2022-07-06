@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * isalpha-main function
+ * _isalpha-main function
  *
  * @c:'checks for a character value
  *
