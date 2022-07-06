@@ -2,9 +2,9 @@
 /**
  * _islower-calling the functions from main.h
  *
- * Description:'The code checks whther an alphabet is lowercase'
+ * @c:'The code checks whther an alphabet is lowercase'
  *
- * Returns:Always a value from the function prototype
+ * Returns:returns 1 if true, 0 if false
  */
 int _islower(int c)
 {
