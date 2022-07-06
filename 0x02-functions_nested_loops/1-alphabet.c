@@ -4,7 +4,8 @@
  *
  * Description:'Printing alphabets from a to z'
  *
- * Return:Always 0 (Success)
+ * Return:Always returns the alphabets
+ *
  */
 void print_alphabet(void)
 {
