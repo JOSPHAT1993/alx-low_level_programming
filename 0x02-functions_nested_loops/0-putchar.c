@@ -1,10 +1,11 @@
 #include "main.h"
+
 /**
- * main-Entry point
+ * main-Etry point
  *
- * Description:'Program printing a simple text _putchar'
+ * Description:'Printing characters by use of own header'
  *
- * Return:Always 0 (Success)
+ * Return:Awlays 0 (Success)
  */
 int main(void)
 {
@@ -19,4 +20,3 @@ int main(void)
 	_putchar('\n');
 	return (0);
 }
-
