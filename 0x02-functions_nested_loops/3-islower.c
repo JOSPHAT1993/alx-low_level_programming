@@ -4,7 +4,7 @@
  *
  * @c:'The code checks whther an alphabet is lowercase'
  *
- * Returns:returns 1 if true, 0 if false
+ * Returns:1 if true, 0 if false
  */
 int _islower(int c)
 {
