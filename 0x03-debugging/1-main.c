@@ -2,7 +2,7 @@
 
 /**
  * main - causes an infinite loop
- * Return: 0
+ * Return: 0 
  */
 
 int main(void)
@@ -15,8 +15,8 @@ int main(void)
 
 	while (i < 10)
 	{
-		putchar(i);
-	}/* Requires increament for i before parentheses */
+		putchar(i); 
+	}	/* Requires increament for i before closing brace */
 	
 	printf("Infinite loop avoided! \\o/\n");
 
