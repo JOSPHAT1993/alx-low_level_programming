@@ -2,9 +2,9 @@
 /**
  * _isupper-main function
  *
- * @c:'Integer variable'
+ * @c:'Character variable'
  *
- * Return: 1 for supper, 0 
+ * Return:1 for upper, 0 for lower 
  */
 int _isupper(int c)
 {
