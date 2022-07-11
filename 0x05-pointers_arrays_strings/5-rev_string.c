@@ -5,7 +5,7 @@
  *
  * @s:'String variable'
  *
- * Return:String reverse 
+ * Return:String reverse
  */
 void rev_string(char *s)
 {
