@@ -2,7 +2,7 @@
 /**
  * reset_to_98-main functon for reset a variable
  *
- * @*n:'Pointer to n'
+ * @n:'Integer Variable'
  *
  * Return:The value of n before reset and n after reset
  */
