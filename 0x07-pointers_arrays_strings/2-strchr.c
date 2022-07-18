@@ -5,7 +5,7 @@
  * @s:'String Variable'
  * @c:'Character Variable to be located'
  *
- * Return:The character or null if not located'
+ * Return:The character or null if not located
  */
 char *_strchr(char *s, char c)
 {
