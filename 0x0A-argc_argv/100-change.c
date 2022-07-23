@@ -1,0 +1,59 @@
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+/**
+ * main-Entry Function
+ *
+ * @argc:'Variable of number of arguments'
+ * @argv:'Variable of an array'
+ *
+ * Return:Always 0 (Success)
+ */
+int main(int argc, char *argv[])
+{
+	int coins = 0;
+	int money;
+
+	if (argc == 2)
+	{
+		char *s =strchr(argv[argc - 1], '-');
+		if (s)
+		{
+			printf("%d\n", 0);
+		}
+		
+		money = atoi(argv[argc - 1]);
+
+		while (money > 0)
+		{
+			if (money % 25 == 0)
+			{
+				money = money - 25;
+			}
+			else if (money % 10 == 0)
+			{
+				money = money - 10;
+			}
+			else if (money % 5 == 0)
+			{
+				money = money - 5;
+			}
+			else if (money % 2 == 0)
+			{
+				money = money - 2;
+			}
+			else
+			{
+				money = money - 1;
+			}
+			coins ++;
+		}
+		printf("%d\n", coins);
+	}
+	else
+	{
+		printf("Error\n");
+		return (1);
+	}
+	return (0);
+}
