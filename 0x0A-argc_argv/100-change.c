@@ -19,7 +19,8 @@ int main(int argc, char *argv[])
 		char *s =strchr(argv[argc - 1], '-');
 		if (s)
 		{
-			printf("%d\n", 0);
+			printf("0\n");
+			return (1);
 		}
 		
 		money = atoi(argv[argc - 1]);
@@ -49,11 +50,11 @@ int main(int argc, char *argv[])
 			coins ++;
 		}
 		printf("%d\n", coins);
+		return (0);
 	}
 	else
 	{
 		printf("Error\n");
 		return (1);
 	}
-	return (0);
 }
