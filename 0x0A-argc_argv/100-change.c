@@ -13,10 +13,11 @@ int main(int argc, char *argv[])
 {
 	int coins = 0;
 	int money;
+	char *s;
 
 	if (argc == 2)
 	{
-		char *s =strchr(argv[argc - 1], '-');
+		s =strchr(argv[argc - 1], '-');
 		if (s)
 		{
 			printf("0\n");
