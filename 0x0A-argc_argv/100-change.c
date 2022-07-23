@@ -21,6 +21,7 @@ int main(int argc, char *argv[])
 		if (s)
 		{
 			printf("0\n");
+			return (0);
 		}
 		money = atoi(argv[argc - 1]);
 
