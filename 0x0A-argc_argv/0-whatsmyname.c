@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 /**
- * _myname-Entry function
+ * main-Entry function
  *
  * @argc:'Argument c'
  * @argv:'Array Variable repre arguments length'
@@ -15,7 +15,6 @@ int main(__attribute__((unused)) int argc, char* argv[])
 	return (0);
 }
 
-	
 
 
 
