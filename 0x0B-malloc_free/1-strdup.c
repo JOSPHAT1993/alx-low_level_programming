@@ -12,9 +12,9 @@ char *_strdup(char *str)
 	char *dup;
 	int c = 0;
 	int i = 0;
-	
+
 	if (str == NULL)
-		return NULL;
+		return (NULL);
 	while (str[c] != '\0')
 	{
 		c++;
