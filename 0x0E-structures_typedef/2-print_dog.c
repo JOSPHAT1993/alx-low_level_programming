@@ -3,7 +3,7 @@
 /**
  * print_dog-main function to print the dog elements
  *
- * dog d:'Struct variable'
+ * @d:'Struct variable'
  */
 void print_dog(struct dog *d)
 {
