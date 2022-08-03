@@ -6,8 +6,6 @@
  *
  * @name:'String variable'
  * @f:'Function pointer'
- *
- * Return:Name from main c file
  */
 void print_name(char *name, void (*f)(char *))
 {
