@@ -24,9 +24,9 @@ list_t *add_node(list_t **head, const char *str)
 	}
 
 	first = malloc(sizeof(list_t));
-	if(first == NULL)
+	if (first == NULL)
 	{
-		return(NULL);
+		return (NULL);
 	}
 	first->str = strdup(str);
 	first->len = count;
