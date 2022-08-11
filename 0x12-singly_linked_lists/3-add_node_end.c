@@ -26,7 +26,7 @@ list_t *add_node_end(list_t **head, const char *str)
 
 	if (first == NULL)
 		return (NULL);
-	
+
 	first->str = strdup(str);
 	first->len = count;
 	first->next = NULL;
@@ -36,7 +36,7 @@ list_t *add_node_end(list_t **head, const char *str)
 		free(first);
 		return (NULL);
 	}
-	
+
 	if (*head == NULL)
 	{
 		*head = first;
