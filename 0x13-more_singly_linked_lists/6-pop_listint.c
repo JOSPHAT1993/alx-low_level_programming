@@ -14,7 +14,7 @@ int pop_listint(listint_t **head)
 
 	if (*head == NULL)
 	{
-		return (value);
+		return (0);
 	}
 	else
 	{
@@ -22,6 +22,6 @@ int pop_listint(listint_t **head)
 		value = tmp->n;
 		free(*head);
 		*head = tmp->next;
-		return (value);
 	}
+	return (value);
 }
