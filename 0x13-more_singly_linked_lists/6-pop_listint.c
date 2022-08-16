@@ -6,6 +6,8 @@
  * pop_listint-main function to delete head node
  *
  * @head:'Variable head pointer'
+ *
+ * Return:Values in the head pointer
  */
 int pop_listint(listint_t **head)
 {
